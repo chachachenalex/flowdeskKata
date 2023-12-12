@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.vs/
+*.suo
+*.ntvs*
+*.njsproj*
+*.sln.docstates
+
+*.js.map
