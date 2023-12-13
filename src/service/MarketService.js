@@ -71,4 +71,4 @@ class MarketService {
     }
 }
 
-module.exports = MarketService;
+module.exports =  MarketService ; 

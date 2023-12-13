@@ -1,4 +1,11 @@
-const exchangesList = require('../entity/exchanges'); 
+const fs = require('fs');
+const path = require('path');
+
+// get exchanges values from properties file
+const configFile = path.resolve(__dirname, '../../exchanges.json'); // get config file of exchanges
+const rawdata = fs.readFileSync(configFile);
+const data = JSON.parse(rawdata);
+const exchangesList = data.exchanges;
 
 class MarketController {
     constructor(service) {
@@ -22,4 +29,4 @@ class MarketController {
     }
 }
 
-module.exports = MarketController;
+module.exports =  MarketController ;

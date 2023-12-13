@@ -7,4 +7,4 @@ class MarketData {
     }
 }
 
-module.exports = MarketData;
+module.exports = { MarketData };

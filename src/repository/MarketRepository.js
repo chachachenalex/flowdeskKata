@@ -33,4 +33,4 @@ class MarketRepository {
     }
 }
 
-module.exports = MarketRepository;
+module.exports = { MarketRepository };
